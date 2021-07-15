@@ -11,19 +11,25 @@ With the next simple steps, you will have an independence to use our integration
 
 1. Install OpenCV
 - Install Python 
-- In [Windows](https://www.geeksforgeeks.org/how-to-install-opencv-for-python-in-windows/) or [Linux](https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html) (Warning: be careful with python environments!)
+- In [Windows](https://www.geeksforgeeks.org/how-to-install-opencv-for-python-in-windows/) or [Linux](https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html)
+> (Warning: be careful with python environments!)
 - Download [file](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml) `haarcascade_frontalface_default.xml` pre-trained
 
 2. Install Node-RED
 - Create a virtual machine (optional)
 - Install [Node-RED](https://nodered.org/docs/getting-started/)
 
-3. Files
+3. Install DeepFace
+- Clone the project [Deepface](https://github.com/serengil/deepface) belonging Sefik Ilkin Serengil, and follow your [README](https://github.com/serengil/deepface#readme)
+
+> Can install on any operating system!
+
+4. Files
 - Clone files in [repository](https://github.com/Goncalo-sousa/SocialRobot4AAL.git)
 
 > File haarcascade_frontalface_default.xml must be in the same folder as cm.py! Or you need change in code `face_cascade = cv2.CascadeClassifier('[Path to haarcascade_frontalface_default.xml]')` 
 
-4. Node-RED
+5. Node-RED
 - Running Node-RED
 - Open in your browser and import file `finalFlow.json`
 
