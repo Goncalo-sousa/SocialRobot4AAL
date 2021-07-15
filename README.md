@@ -38,3 +38,5 @@ With the next simple steps, you will have an independence to use our integration
 **6. Node-RED**
 - Running Node-RED
 - Open in your browser and import file `finalFlow.json` 
+
+> Warning: You need to pay attention because some widgets probably need to change their path!
