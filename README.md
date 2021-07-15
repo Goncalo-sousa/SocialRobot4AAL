@@ -1,4 +1,6 @@
 # SocialRobot4AAL
+![image](https://user-images.githubusercontent.com/45467998/125842827-7b31c800-165b-4b47-a2e7-6efb073b078b.png)
+
 
 This project was developed for the Computer Science Project of the Computer Engineering degree at the technology and Management School (ESTG) of the Polytechnic Institute of Leiria by the students Gonçalo Sousa and Élio Martins under the guidance of Professor António Manuel de Jesus Pereira and Professor Luís Alexandre Lopes Frazão. 
 
