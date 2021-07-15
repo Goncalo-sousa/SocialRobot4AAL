@@ -7,7 +7,7 @@ This project was developed for the Computer Science Project of the Computer Engi
 
 This project presents a systems integration, where it is possible to determine emotions from human faces, with some optimizations like discarding blurred photos.
 
-With the next simple steps, you will have an independence to use our integration.
+With the next simple steps you will have the ability to replicate our integration.
 
 **1. Install OpenCV**
 - Install Python 
@@ -21,22 +21,22 @@ With the next simple steps, you will have an independence to use our integration
 ---------------------------------------------------------------
 **3. Install DeepFace**
 - Create a virtual machine (optional)
-- Clone the project [Deepface](https://github.com/serengil/deepface) belonging Sefik Ilkin Serengil, and follow your [README](https://github.com/serengil/deepface#readme)
+- Clone the project [Deepface](https://github.com/serengil/deepface) belonging to Sefik Ilkin Serengil, and follow the steps: [README](https://github.com/serengil/deepface#readme)
 
-> Can install on any operating system!
+> Can be installed on any operating system!
 ---------------------------------------------------------------
 **4. Download Blurry Framework**
-- Clone the project [BlurryFrameRemover](https://github.com/deepshakes/BlurryFrameRemover)
+- Clone the project: [BlurryFrameRemover](https://github.com/deepshakes/BlurryFrameRemover)
 
-> Put in same machine that Node-RED!
+> Install it on the same machine that has Node-RED!
 ---------------------------------------------------------------
 **5. Files**
-- Clone files in [repository](https://github.com/Goncalo-sousa/SocialRobot4AAL.git)
+- Clone the files in: [repository](https://github.com/Goncalo-sousa/SocialRobot4AAL.git)
 
-> File haarcascade_frontalface_default.xml must be in the same folder as cm.py! Or you need change in code `face_cascade = cv2.CascadeClassifier('[Path to haarcascade_frontalface_default.xml]')` 
+> File haarcascade_frontalface_default.xml must be in the same folder as cm.py! Or you need to change this line in the code: `face_cascade = cv2.CascadeClassifier('[Path to haarcascade_frontalface_default.xml]')` 
 ---------------------------------------------------------------
 **6. Node-RED**
 - Running Node-RED
 - Open in your browser and import file `finalFlow.json` 
 
-> Warning: You need to pay attention because some widgets probably need to change their path!
+> Warning: You need to pay attention because in some widgets you will need to change their path!
