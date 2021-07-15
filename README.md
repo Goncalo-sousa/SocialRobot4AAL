@@ -8,6 +8,15 @@ This project presents a systems integration, where it is possible to determine e
 With the next simple steps, you will have an independence to use our integration.
 
 1. Install OpenCV
-- In [Windows](https://www.geeksforgeeks.org/how-to-install-opencv-for-python-in-windows/) or Linux
+- Install Python 
+- In [Windows](https://www.geeksforgeeks.org/how-to-install-opencv-for-python-in-windows/) or [Linux](https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html) (Warning: be careful with python environments!)
+- Download [file](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml) `haarcascade_frontalface_default.xml` pre-trained
 
-2. 
+2. Install Node-RED
+- Create a virtual machine (optional)
+- Install [Node-RED](https://nodered.org/docs/getting-started/)
+
+3. Files
+- Clone files in [repository](https://github.com/Goncalo-sousa/SocialRobot4AAL.git)
+
+4. 
