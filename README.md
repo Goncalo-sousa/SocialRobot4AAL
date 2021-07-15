@@ -18,23 +18,23 @@ With the next simple steps, you will have an independence to use our integration
 **2. Install Node-RED**
 - Create a virtual machine (optional)
 - Install [Node-RED](https://nodered.org/docs/getting-started/)
-
+---------------------------------------------------------------
 **3. Install DeepFace**
 - Create a virtual machine (optional)
 - Clone the project [Deepface](https://github.com/serengil/deepface) belonging Sefik Ilkin Serengil, and follow your [README](https://github.com/serengil/deepface#readme)
 
 > Can install on any operating system!
-
+---------------------------------------------------------------
 **4. Download Blurry Framework**
 - Clone the project [BlurryFrameRemover](https://github.com/deepshakes/BlurryFrameRemover)
 
 > Put in same machine that Node-RED!
-
+---------------------------------------------------------------
 **5. Files**
 - Clone files in [repository](https://github.com/Goncalo-sousa/SocialRobot4AAL.git)
 
 > File haarcascade_frontalface_default.xml must be in the same folder as cm.py! Or you need change in code `face_cascade = cv2.CascadeClassifier('[Path to haarcascade_frontalface_default.xml]')` 
-
+---------------------------------------------------------------
 **6. Node-RED**
 - Running Node-RED
 - Open in your browser and import file `finalFlow.json` 
