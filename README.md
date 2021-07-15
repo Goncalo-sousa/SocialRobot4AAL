@@ -3,7 +3,7 @@
 This project was developed for the Computer Science Project of the Computer Engineering degree at the technology and Management School (ESTG) of the Polytechnic Institute of Leiria by the students Gonçalo Sousa and Élio Martins under the guidance of Professor António Manuel de Jesus Pereira and Professor Luís Alexandre Lopes Frazão. 
 
 
-This project presents a systems integration, where it is possible to determine emotions from human faces, with some optimizations like discarding blurred photos.
+This project presents a systems integration, where it is possible to determine emotions from human faces.
 
 With the next simple steps, you will have an independence to use our integration.
 
@@ -18,5 +18,7 @@ With the next simple steps, you will have an independence to use our integration
 
 3. Files
 - Clone files in [repository](https://github.com/Goncalo-sousa/SocialRobot4AAL.git)
+
+> File haarcascade_frontalface_default.xml must be in the same folder as cm.py! Or you need change in code `face_cascade = cv2.CascadeClassifier('[Path to haarcascade_frontalface_default.xml]')` 
 
 4. 
