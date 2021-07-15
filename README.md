@@ -24,4 +24,7 @@ With the next simple steps, you will have an independence to use our integration
 > File haarcascade_frontalface_default.xml must be in the same folder as cm.py! Or you need change in code `face_cascade = cv2.CascadeClassifier('[Path to haarcascade_frontalface_default.xml]')` 
 
 4. Node-RED
-- 
+- Running Node-RED
+- Open in your browser and import file `finalFlow.json`
+
+> 
